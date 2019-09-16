@@ -1,0 +1,30 @@
+.placeholder-logo {
+  background-color: rgba(255, 255, 255, 0.5);
+  max-height: 40px;
+  object-fit: contain;
+  margin-left: 1rem;
+}
+
+// Override bootstrap outline on button focus
+button:focus {
+  outline: none !important;
+}
+
+.nav-root {
+  flex-grow: 1;
+  .MuiAppBar-colorPrimary {
+    background-color: transparent !important;
+  }
+}
+
+.nav-menu-button {
+  margin-right: auto;
+}
+
+.nav-title {
+  flex-grow: 1;
+}
+
+.nav-avatar {
+  margin: 0.5rem 0.5rem 0.5rem 1rem;
+}
